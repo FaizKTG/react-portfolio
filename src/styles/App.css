@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(40, 40, 40, 1);
+    font-family:Inter, Helvetica, sans-serif;
+    /*background: url("Images/Background.jpg") no-repeat fixed center center;*/
+    margin: 0;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(24, 24, 24); 
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(79, 79, 79); 
+}

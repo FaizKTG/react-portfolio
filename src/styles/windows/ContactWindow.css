@@ -1,0 +1,46 @@
+
+.Contact {
+  margin-top: 500px;
+  background: linear-gradient(180deg, rgba(31, 31, 31, 0.6) 0%, rgba(0, 0, 0, 0.08) 100%);
+  backdrop-filter: blur(5px);
+  height: 50%;
+  top: 540%;
+    
+}
+
+.WriteLine1 {
+  display: inline-block;
+  white-space: normal; 
+  clip-path: inset(0 100% 0 0); 
+  animation: typing 3s steps(40) 1s 1 normal both;
+}
+
+.WriteLine2  {
+  display: inline-block;
+  white-space: normal; 
+  clip-path: inset(0 100% 0 0); 
+  animation: typing 3s steps(40) 4s 1 normal both;
+}
+
+.WriteLine3 {
+  display: inline-block;
+  white-space: normal; 
+  clip-path: inset(0 100% 0 0); 
+  animation: typing 4s steps(40) 8s 1 normal both;
+}
+
+.WriteLine4 {
+  display: inline-block;
+  white-space: normal; 
+  clip-path: inset(0 100% 0 0); 
+  animation: typing 4s steps(40) 12s 1 normal both;
+}
+
+@keyframes typing {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0); /* Reveal the full text */
+  }
+}

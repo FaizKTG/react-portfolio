@@ -1,0 +1,26 @@
+.MenuBg {
+    background-color: #14141edb;
+    width: 100%;
+    height: 723px;
+    position: sticky;
+    top: 0;
+}
+
+.ImageBg {
+    background: rgba(19, 19, 19, 0.5);
+    background-image: url('../assets/DarkSouls-by-Seven-Bit.jpg');
+    background-size: 101%; 
+    background-position: center;
+    height: 723px;
+    width: 478px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    transition:
+        background-size 1s ease-in-out;
+}
+.ImageBg:hover {
+    background-size: 102%; 
+}
+
+

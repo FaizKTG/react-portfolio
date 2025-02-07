@@ -1,0 +1,71 @@
+
+.About {
+    background: linear-gradient(180deg, rgba(29, 118, 200, 0.60) 0%, rgba(138, 139, 139, 0.08) 100%);
+}
+.Title {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.Bio {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+}
+.skillSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillSet {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 7px 5px; 
+    background-color: #262626;
+    border-radius: 25px;
+    color: #B0B0B0;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+.skillSet:hover {
+    background-color: #3a3a3a;
+    color: #cfcfcf;
+}
+
+.SkillImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SkillImages img {
+    max-width: 90px; 
+    height: auto;
+}
+
+.SkillImages img:hover {
+    animation: shiver 1.5s infinite;
+}
+
+
+@keyframes shiver {
+	0% {	transform: translate(0, 0);}
+	5% {	transform: translate(-5px, -0);}
+	10% {	transform: translate(5px, 0);}
+	15% {	transform: translate(-5px, -0);}
+	20% {	transform: translate(5px, 0);}
+	25% {	transform: translate(-5px, -0);}
+	30% {	transform: translate(0, 0);}
+	100% {	transform: translate(0, 0);}
+}
+
+
+
+
+

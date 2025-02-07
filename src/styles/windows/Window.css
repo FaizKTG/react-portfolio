@@ -1,0 +1,38 @@
+.Windows {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 100px;
+    justify-content: center;
+}
+
+.Window {
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(5px);
+    width: 80%;
+    padding: 20px;
+    opacity: 0;
+    transform: translate(5px);
+
+    color: white;
+    font-size: 30px;
+    transition: 
+        border 1s ease,
+        opacity 1s ease, transform 1s ease !important;
+}
+.Window:hover {
+    border: 2px solid rgba(255, 255, 255, 0.741);
+}
+.WindowVisible {
+    transform: translate(0px) !important; 
+    opacity: 1 !important;
+}
+
+
+.Description {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

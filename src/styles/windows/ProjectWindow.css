@@ -1,0 +1,60 @@
+.Project {
+    background: linear-gradient(180deg, rgba(0, 146, 166, 0.60) 0%, rgba(93, 37, 255, 0.08) 100%);
+    height: 4500px;
+}
+.ProjectTitle {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.ProjectTinyTitle {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+}
+.Title {
+    font-size: 25px;
+    color: white;
+}
+
+.GGImage {
+    width: 99%; 
+    margin-top: 10px;
+    height: auto; 
+    border-radius: 10px;
+}
+
+.RenderDisplay {
+    display: flex;
+    gap: 10px;
+}
+.RenderImage {
+    width: 99%; 
+    margin-top: 10px;
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.RenderImage-small {
+    width: 49%; 
+    margin-top: 20px;
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.RenderImage-small-center {
+    width: 49%; 
+    margin-top: 20px;
+    height: auto; 
+    margin-right: auto; margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Frame {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
