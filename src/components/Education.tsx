@@ -19,7 +19,7 @@ function Education(_props : {}, ref : React.Ref<HTMLDivElement>) {
                 Field: Computer Science
             </div>
             <div className = "EducationElement Specialty">
-                Specialty: Information Systems and Software Engineering
+                Specialty: Computer Systems and Software Engineering
             </div>
         </div>
         </>

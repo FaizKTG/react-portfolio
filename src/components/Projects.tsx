@@ -13,15 +13,6 @@ function Project(_props : {}, ref : React.Ref<HTMLDivElement>) {
         <>
             <div className = "Project Window" id = "projectWindow" ref = {ref}>
                 <div className = "ProjectTitle">Projects :</div>
-                <div className = "Title">Ghosted Guns</div>
-                <div className = "Description">
-                    RPG Gun shooter in development.
-                    My main project; It is a dungeon crawler and 2D shooter in a post-world war setting, 
-                    hidden inside a now forgotten and locked prison filled with spirits of fallen soldiers. The story
-                    follows a soldier who looks slightly ill. Game's code is programmed from the grounds up, All pixel art is designed by me. 
-                </div>
-                <img className = "GGImage" src = {gg}></img>
-                <hr></hr>
 
                 <div className = "Title">Graph.JS</div>
                 <div className = "Description">

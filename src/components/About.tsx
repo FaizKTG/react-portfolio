@@ -21,12 +21,10 @@ function About(_props : {},ref : React.Ref<HTMLDivElement>) {
         <div className = "About Window" id = "aboutWindow" ref = {ref}>
             <div className = "Title">About :</div>
             <div className = "Bio">
-                CS Student and game designer. I've always enjoyed works of art and aspire to
-                use my creativity to develop projects for fun. I use Unity engine and have
-                worked on 6 game-prototypes all either 3D or 2D, with one main game in-development. 
-                I enjoy video-games especially the indie ones, They are an inspiration and I've always tried
-                to replicate many through drawing pixel-art. On the software side of things I've made
-                a good chunk of projects that are listed below.
+                I'm a CS student and a bit of a programmer, I created this website to study
+                the basics of a frontend framework while keeping track of certain projects I made.
+                I like art and that means I hate boring things, so I decided to go "creative mode" when it comes to the UI.
+                So enjoy the random video game references ;)
             </div>
 
             <div className = "Title">Skills :</div>
